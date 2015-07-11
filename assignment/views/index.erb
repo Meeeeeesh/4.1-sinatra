@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= FML %></title>
+  <link rel="stylesheet" href="../css/test1.css"/>
+</head>
+  <body>
+    <%= erb :header %>
+    <div class="blog-author-img">
+      <a class="header-filter" style="url('<%= ARTICLES[@article_id][:article1]%>');" href="/">
+          <div>
+              <h2>
+                  OH COOL A POST!
+              </h2>
+          </div>
+        <% erb :article_footer %>
+      </a>
+      <div class="sidebar">
+        <div class="ad-img">
+          <div class="header-filter" style="url('<%= ARTICLES[@article_id][:article1]%>');" href="/">
+              <h2>
+              ARE YOU IN A PICKLE?
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+     <%= erb :footer_details %>
+  </body>
+</html>
