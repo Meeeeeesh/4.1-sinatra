@@ -225,7 +225,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  background-image: url("../images/tibby-01.png");
+  background-image: url("./images/tibby-01.png");
   background-size: cover; }
 
 .blogger-img img {
@@ -257,7 +257,7 @@ a {
   height: 300px;
   margin: 0, 10px, 0, 0;
   padding-bottom: 10px;
-  background-image: url("../images/dill.jpg");
+  /*background-image: url("./images/dill.jpg");*/
   background-position: center center;
   background-size: cover;
   overflow: hidden;

@@ -1,48 +1,31 @@
-<article class="container">
-  <section class="blog">
-    <header>
-      <h2 class="blog-title">
-        DJ BOK CHOY TELLS ALL!
-      </h2>
-      <div class="blog-author">
-        <div class="blog-author-img">
-          <div class="header-filter">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= FML %></title>
+  <link rel="stylesheet" href="../css/test1.css"/>
+</head>
+  <body>
+    <%= erb :header %>
+    <div class="blog-author-img">
+      <a class="header-filter" style="url('<%= ARTICLES[@article_id][:article1]%>');" href="/">
+          <div>
+              <h2>
+                  OH COOL A POST!
+              </h2>
+          </div>
+        <% erb :article_footer %>
+      </a>
+      <div class="sidebar">
+        <div class="ad-img">
+          <div class="header-filter" style="url('<%= ARTICLES[@article_id][:article1]%>');" href="/">
+              <h2>
+              ARE YOU IN A PICKLE?
+              </h2>
+            </div>
           </div>
         </div>
-        <p class="blog-author-id">
-          <a href="http://google.com" target="_self">
-          Tibby B. Studmuffin
-          </a>
-        </p>
-        <p class="blog-date">
-          <a href="http://google.com" target="_self">
-            Sunday July 5
-          </a>
-        </p>
       </div>
-    </header>
-    <section>
-      <div class="blog-content">
-        <p>
-          Beetroot water spinach okra water chestnut ricebean pea catsear courgette summer purslane. Water spinach arugula pea tatsoi aubergine spring onion bush tomato kale radicchio turnip chicory salsify pea sprouts fava bean. Dandelion zucchini burdock yarrow chickpea dandelion sorrel courgette turnip greens tigernut soybean radish artichoke wattle seed endive groundnut broccoli arugula.
-        </p>
-        <quote class="quote">
-          TURNIP the BEET
-        </quote>
-        <p>
-          Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.
-        </p>
-        <p>
-          Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.
-        </p>
-        <p>
-          Soko radicchio bunya nuts gram dulse silver beet parsnip napa cabbage lotus root sea lettuce brussels sprout cabbage. Catsear cauliflower garbanzo yarrow salsify chicory garlic bell pepper napa cabbage lettuce tomato kale arugula melon sierra leone bologi rutabaga tigernut. Sea lettuce gumbo grape kale kombu cauliflower salsify kohlrabi okra sea lettuce broccoli celery lotus root carrot winter purslane turnip greens garlic. JÃ­cama garlic courgette coriander radicchio plantain scallion cauliflower fava bean desert raisin spring onion chicory bunya nuts. Sea lettuce water spinach gram fava bean leek dandelion silver beet eggplant bush tomato.
-        </p>
-      </div>
-    </section>
-
-    <% erb :article_footer %>
-  </section>
-</article>
-
-
+     <%= erb :footer_details %>
+  </body>
+</html>

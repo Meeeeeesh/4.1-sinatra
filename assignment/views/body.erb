@@ -1,0 +1,98 @@
+    <article class="container">
+      <section class="blog-content">
+        <div class="blog-author">
+          <div class="blog-author-img" >
+            <div class="header-filter">
+              </div>
+            </div>
+            <p class="blog-author-id">
+              <a href="http://google.com" target="_self">
+              Tibby B. Studmuffin
+              </a>
+            </p>
+            <p class="blog-date">
+              <a href="http://google.com" target="_self">
+                Sunday July 5
+              </a>
+            </p>
+          </div>
+        <h2><%= BLOG[@blog_id][:title] %></h2>
+        <p>
+            <%= BLOG[@blog_id][:body] %>
+            <%= BLOG[@blog_id][:img] %>
+        </p>
+        <p>
+            <%= BLOG[@blog_id][:body] %>
+        </p>
+        <h2>
+            <%= BLOG[@blog_id][:quote] %>
+        </h2>
+        <p>
+            <%= BLOG[@blog_id][:body] %>
+        </p>
+        <p>
+            <%= BLOG[@blog_id][:body] %>
+        </p>
+      </section>
+          <%= erb :article_footer %>
+      <div class="sidebar">
+        <div class="blog_author_img">
+          <div class="header-filter">
+          </div>
+        </div>
+        <p class="blogger-name">
+          <a href="http://google.com" target="_self">
+            Tibby B. Studmuffin
+          </a>
+        </p>
+        <div class="blogger-sm">
+          <ul>
+            <li>Twitter</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+          </ul>
+        </div>
+        <img src="<%= BLOG[@blog_id][:ad_img] %>"
+        <div class="header-filter">
+        </div>
+        <sub>
+          
+        </sub>
+        <a class="ad-txt" href="/" target="_self">Buy a MAC</a>
+        </sub>
+        <div class="side-blog">
+          <h3>ARE YOU IN A PICKLE?</h3>
+          <p>
+            Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip. Sea lettuce lettuce water chestnut eggplant winter purslane fennel azuki bean earthnut pea sierra leone bologi leek soko chicory celtuce parsley jÃ­cama salsify.
+          </p>
+        </div>
+      </div>
+    </article>
+    <footer class="footer">
+      <div class="footer-b">
+        <a class="footer-blog-1"><div class="footer-filter">
+          <h2> 
+            ARE YOU THERE?
+          </h2>
+          </div>
+        </a>
+        <a class="footer-blog-2"><div class="footer-filter">
+           <h2>
+            WHERE ARE YOU GOING?
+           </h2>
+          </div>
+        </a>
+        <a class="footer-blog-3"><div class="footer-filter">
+           <h2>
+            COME BAAAAAAACK!
+           </h2>
+          </div>
+        </a>
+        <a class="footer-blog-4"><div class="footer-filter">
+           <h2>
+            OH HEY, WHAT'S UP.
+           </h2>
+          </div>
+        </a>
+          </a>
+        </div>
